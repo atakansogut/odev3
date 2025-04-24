@@ -74,8 +74,3 @@ for i in k:
     plt.ylabel("Doğruluk")
     plt.show()
     
-    plt.plot(k,fOlcusu,"bx-",color="red")
-    plt.xticks(k)
-    plt.title("K-NN Model Performans Tablosu")
-    plt.xlabel("k Komşu Sayısı")
-    plt.ylabel("F-Ölçüsü")
